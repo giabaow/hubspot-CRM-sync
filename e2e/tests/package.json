@@ -1,0 +1,15 @@
+{
+  "name": "hubspot-crm-sync-test-automation",
+  "version": "1.0.0",
+  "description": "TypeScript + Playwright API and UI test automation suite for the HubSpot CRM Sync service",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api",
+    "test:ui": "playwright test tests/ui",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "typescript": "^5.5.4"
+  }
+}
